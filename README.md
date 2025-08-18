@@ -36,11 +36,29 @@
 
 ## 🤔Acerca del proyecto
 
-Foro Hub es una API REST que forma parte del backend de una plataforma de discusión y conversacion.
+Foro Hub es una API REST que forma parte del backend de un Foro `es un lugar donde todos los participantes de una plataforma
+pueden colocar sus preguntas sobre determinados asuntos.`
 Este proyecto fue desarrollado como parte del Challenge de **Alura Latam** - **Oracle Next Education**.
 
 La API incluye funcionalidades para la gestión de usuarios, roles, módulos, cursos, tópicos y 
 respuestas, con autenticación basada en JWT y control de acceso basado en roles.
+
+Nuestra API va a centrarse específicamente en los tópicos, y debe permitir a los usuarios:
+
+* Crear un nuevo tópico
+* Mostrar todos los tópicos creados
+* Mostrar un tópico específico
+* Actualizar un tópico
+* Eliminar un tópico 
+
+Es lo que conocemos comúnmente como CRUD (CREATE, READ, UPDATE, DELETE) y es muy parecido con lo que desarrollamos en el Hotel Alura, pero ahora usando un framework que va a facilitar mucho nuestro trabajo.
+
+Al final de nuestro desarrollo tendremos una API REST con las siguientes funcionalidades
+
+1. API con rutas implementadas siguiendo las mejores prácticas del modelo REST;
+2. Validaciones realizadas según reglas de negocio;
+3. Implementación de una base de datos para la persistencia de la información;
+4. Servicio de autenticación/autorización para restringir el acceso a la información.
 
 Este proyecto hará uso de:
 
