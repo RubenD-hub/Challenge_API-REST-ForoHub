@@ -24,10 +24,10 @@ public class Respuesta {
     private LocalDateTime fechaCreacion = LocalDateTime.now();
 
     @ManyToOne
-    @JoinColumn(name = "topico_id")
+    @JoinColumn(name = "topico")
     private Topico topico;
 
     @ManyToOne
-    @JoinColumn(name = "autor_id")
+    @JoinColumn(name = "autor")
     private Usuario autor;
 }

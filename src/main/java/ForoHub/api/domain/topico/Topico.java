@@ -1,5 +1,6 @@
 package ForoHub.api.domain.topico;
 
+import ForoHub.api.domain.curso.Curso;
 import ForoHub.api.domain.usuario.Usuario;
 import jakarta.persistence.*;
 import java.time.LocalDateTime;
@@ -28,6 +29,8 @@ public class Topico {
     @JoinColumn(name = "autor")
     private Usuario autor;
 
-    private String curso;
+    @ManyToOne
+    @JoinColumn(name = "curso")
+    private Curso curso;
 
 }
